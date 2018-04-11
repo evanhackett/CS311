@@ -61,3 +61,9 @@ val divisible_by_3 =
     in
         check (states, alphabet, transition_func, start, accept_states)
     end
+
+(* Example usage:
+    starts_with_a "abb" => true
+    divisible_by_3 "0110" => true
+    divisible_by_3 "10" => false
+*)
